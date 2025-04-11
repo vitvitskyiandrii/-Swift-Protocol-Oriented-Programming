@@ -65,7 +65,7 @@ class MyClass {
         let url = documentURL.appendingPathComponent("myData")
         try? persistableTaggedData.persist(to: url)
 
-        let encodedString = persistableTaggedData.base64EncodedString
+        _ = persistableTaggedData.base64EncodedString
     }
 }
 

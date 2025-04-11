@@ -17,6 +17,9 @@
 		DB8AD0C92DA9338F00AC4B6F /* GodTaggedDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8AD0C82DA9338F00AC4B6F /* GodTaggedDataClass.swift */; };
 		DB8AD0CB2DA9438200AC4B6F /* OOPTaggedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8AD0CA2DA9438200AC4B6F /* OOPTaggedData.swift */; };
 		DB8AD0CE2DA96E0A00AC4B6F /* POPTaggedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8AD0CD2DA96E0A00AC4B6F /* POPTaggedData.swift */; };
+		DB8AD0D12DA98CB300AC4B6F /* GenericsFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8AD0D02DA98CB300AC4B6F /* GenericsFunctions.swift */; };
+		DB8AD0D32DA9904800AC4B6F /* GenericTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8AD0D22DA9904800AC4B6F /* GenericTypes.swift */; };
+		DB8AD0D52DA9926A00AC4B6F /* GenericProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8AD0D42DA9926A00AC4B6F /* GenericProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		DB8AD0C82DA9338F00AC4B6F /* GodTaggedDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodTaggedDataClass.swift; sourceTree = "<group>"; };
 		DB8AD0CA2DA9438200AC4B6F /* OOPTaggedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOPTaggedData.swift; sourceTree = "<group>"; };
 		DB8AD0CD2DA96E0A00AC4B6F /* POPTaggedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POPTaggedData.swift; sourceTree = "<group>"; };
+		DB8AD0D02DA98CB300AC4B6F /* GenericsFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsFunctions.swift; sourceTree = "<group>"; };
+		DB8AD0D22DA9904800AC4B6F /* GenericTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTypes.swift; sourceTree = "<group>"; };
+		DB8AD0D42DA9926A00AC4B6F /* GenericProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +143,7 @@
 		DB8AD0C22DA92D9D00AC4B6F /* POP */ = {
 			isa = PBXGroup;
 			children = (
+				DB8AD0CF2DA98C9500AC4B6F /* Generics */,
 				DB8AD0C32DA9329900AC4B6F /* OOPvsPOP */,
 			);
 			path = POP;
@@ -174,6 +181,16 @@
 				DB8AD0CD2DA96E0A00AC4B6F /* POPTaggedData.swift */,
 			);
 			path = POP;
+			sourceTree = "<group>";
+		};
+		DB8AD0CF2DA98C9500AC4B6F /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				DB8AD0D02DA98CB300AC4B6F /* GenericsFunctions.swift */,
+				DB8AD0D22DA9904800AC4B6F /* GenericTypes.swift */,
+				DB8AD0D42DA9926A00AC4B6F /* GenericProtocols.swift */,
+			);
+			path = Generics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +325,9 @@
 			files = (
 				DB8AD09B2DA92D8A00AC4B6F /* ContentView.swift in Sources */,
 				DB8AD0CE2DA96E0A00AC4B6F /* POPTaggedData.swift in Sources */,
+				DB8AD0D12DA98CB300AC4B6F /* GenericsFunctions.swift in Sources */,
+				DB8AD0D52DA9926A00AC4B6F /* GenericProtocols.swift in Sources */,
+				DB8AD0D32DA9904800AC4B6F /* GenericTypes.swift in Sources */,
 				DB8AD0C92DA9338F00AC4B6F /* GodTaggedDataClass.swift in Sources */,
 				DB8AD0CB2DA9438200AC4B6F /* OOPTaggedData.swift in Sources */,
 				DB8AD0992DA92D8A00AC4B6F /* Swift_Protocol_Oriented_ProgrammingApp.swift in Sources */,
