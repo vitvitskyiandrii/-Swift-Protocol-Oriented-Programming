@@ -20,6 +20,7 @@
 		DB8AD0D12DA98CB300AC4B6F /* GenericsFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8AD0D02DA98CB300AC4B6F /* GenericsFunctions.swift */; };
 		DB8AD0D32DA9904800AC4B6F /* GenericTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8AD0D22DA9904800AC4B6F /* GenericTypes.swift */; };
 		DB8AD0D52DA9926A00AC4B6F /* GenericProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8AD0D42DA9926A00AC4B6F /* GenericProtocols.swift */; };
+		DB8AD0D82DA9A1EF00AC4B6F /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8AD0D72DA9A1EF00AC4B6F /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		DB8AD0D02DA98CB300AC4B6F /* GenericsFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsFunctions.swift; sourceTree = "<group>"; };
 		DB8AD0D22DA9904800AC4B6F /* GenericTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTypes.swift; sourceTree = "<group>"; };
 		DB8AD0D42DA9926A00AC4B6F /* GenericProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericProtocols.swift; sourceTree = "<group>"; };
+		DB8AD0D72DA9A1EF00AC4B6F /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 		DB8AD0C22DA92D9D00AC4B6F /* POP */ = {
 			isa = PBXGroup;
 			children = (
+				DB8AD0D62DA9A1E100AC4B6F /* Stack */,
 				DB8AD0CF2DA98C9500AC4B6F /* Generics */,
 				DB8AD0C32DA9329900AC4B6F /* OOPvsPOP */,
 			);
@@ -191,6 +194,14 @@
 				DB8AD0D42DA9926A00AC4B6F /* GenericProtocols.swift */,
 			);
 			path = Generics;
+			sourceTree = "<group>";
+		};
+		DB8AD0D62DA9A1E100AC4B6F /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				DB8AD0D72DA9A1EF00AC4B6F /* Stack.swift */,
+			);
+			path = Stack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB8AD09B2DA92D8A00AC4B6F /* ContentView.swift in Sources */,
+				DB8AD0D82DA9A1EF00AC4B6F /* Stack.swift in Sources */,
 				DB8AD0CE2DA96E0A00AC4B6F /* POPTaggedData.swift in Sources */,
 				DB8AD0D12DA98CB300AC4B6F /* GenericsFunctions.swift in Sources */,
 				DB8AD0D52DA9926A00AC4B6F /* GenericProtocols.swift in Sources */,
